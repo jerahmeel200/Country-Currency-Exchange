@@ -1,0 +1,71 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================================
+# Django / Database
+# ========================================
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+cache/
+logs/
+.env
+*.log
+
+# ========================================
+# MySQL Dumps
+# ========================================
+*.sql
+*.bak
+*.db
+
+# ========================================
+# Environment / IDE
+# ========================================
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Virtual Environment
+# ========================================
+venv/
+env/
+.venv/
+Scripts/
+bin/
+Lib/
+Include/
+pyvenv.cfg
+
+# ========================================
+# Deployment
+# ========================================
+*.pid
+*.seed
+*.manifest
+*.spec
+
+# ========================================
+# Node / Frontend (if React or Expo frontend is included)
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo/
