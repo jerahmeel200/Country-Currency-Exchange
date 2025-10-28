@@ -16,8 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.http import JsonResponse 
+def home(request):
+    return JsonResponse({"message": "Django app deployed successfully on Railway!"})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("countries/", include("countries.urls")),
+    path('', home),
 ]
